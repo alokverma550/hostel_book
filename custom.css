@@ -1,0 +1,67 @@
+.btn{
+    background: #2de245;
+    border-radius: 10px;
+    height: 75px;
+    width: 50px;
+} .btn:focus{
+    background: red;
+}
+
+.btn-space {
+    margin-right: 5px;
+}
+
+
+.verticaltext {
+    position: relative; 
+    padding-left:20px;
+    /*margin:1em 0;*/
+    /*min-height:120px;*/
+}
+
+.verticaltext_content {
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+    left: -0px;
+    top: 55px;
+    position: absolute;
+}
+
+.floor {
+    float: left;
+    display: block;
+    margin: 5px;
+    background: #d5e0d5;
+    width: 400px;
+    height: 200px;
+}
+
+.hostel {
+    float: left;
+    display: block;
+    margin: 5px;
+    background: #000000;
+    width: 470px;
+    height: 62=30px;
+}
+
+.floorname {
+    float: left;
+    display: block;
+    margin: 5px;
+    background: #d5e0d5;
+    width: 50px;
+    height: 200px;
+}
+
+.room {
+    float: left;
+    display: block;
+    margin: 5px;
+    background: #a3a0ff;
+    width: 190px;
+    height: 90px;
+}
